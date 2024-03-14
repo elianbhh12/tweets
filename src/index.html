@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div  class="container mx-96">
+        <div class="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl" >        
+            <h2 class="text-center font-extrabold text-3xl">Programación Web</h2>
+            <div class="row" >
+                <div class="six columns" id="contenido">
+                    <label for="tweet" class="text-xl font-medium ">Escribe tu Tweet:</label>
+                    <form  id="formulario">
+                            <label for="tweet"></label>
+                            <textarea id="tweet" class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                            <input type="submit" class="uppercase text-sm font-bold tracking-wide bg-fuchsia-700 text-gray-100 p-3 rounded-lg w-full 
+                            focus:outline-none focus:shadow-outline" value="Agregar">
+                    </form>
+                </div>
+                <div class="six columns">
+                    <h2 class="text-center py-6 font-medium text-2xl">Tus Tweets</h2>
+                    <div id="lista-tweets"></div>
+                </div>
+            </div>
+        </div>
+    </div> <!--#contenido-->
+
+    <script src="js.js"></script>
+</body>
+</html>
